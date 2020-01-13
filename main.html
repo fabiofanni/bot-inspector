@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+
+<script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5e1a857ed9b8290012a6ebfc&product=inline-share-buttons" async="async"></script>
+<body>
+  <link rel="apple-touch-icon" sizes="180x180" href="/static/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta charset="UTF-8">
+  <title>Twitter Bot Inspector - Find if a Twitter account is a bot</title>
+  <link rel="stylesheet" href="/static/styles/style.css">
+
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div class="search__container">
+<form action="{{ url_for('main') }}" method="POST">
+    <p class="search__title">
+        Twitter Bot Inspector
+    </p>
+    <p class="credits__text" align="center">Find if a Twitter account is a bot or looks like one...<br><br>
+     <input class="search__input" name="twitter-user" type="text" placeholder="Insert Twitter Handle and press enter" type="submit">
+</p>
+</div>
+</br>
+
+<div class="result" align="center">
+       <br>
+
+           <p style="font-size:24px" class="results_text">{{ result }}</p>
+</div>
+<!-- partial -->
+<div class="credits__container">
+    <p align="center">Based on Decision Tree ML algorithm, using less than 10 account</br>attributes to match with 200 accounts dataset (30% verified bots). </p>
+    </div>   
+</div>
+<div class="sharethis-inline-share-buttons"></div>
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <br>
+          <font color="#000000">© 2020 Bot Inspector</font></p><font color="#000000">
+        <a href="http://www.fabio.io" target="_blank">Author</a> | <a href="http://sitemapinspector.com" target="_blank">Sitemap Inspector</a></p>
+        </font></div><font color="#000000">
+      </font></div><font color="#000000"> 
+    </font></div><font color="#000000">
+  </font></section><font color="#000000">
+<!-- ./Footer -->
+<!-- Default Statcounter code for Botinspector.me
+http://botinspector.me -->
+<script type="text/javascript">
+var sc_project=12177481; 
+var sc_invisible=1; 
+var sc_security="099e2629"; 
+</script>
+<script type="text/javascript"
+src="https://www.statcounter.com/counter/counter.js"
+async></script>
+<noscript><div class="statcounter"><a title="web stats"
+href="https://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="https://c.statcounter.com/12177481/0/099e2629/1/"
+alt="web stats"></a></div></noscript>
+<!-- End of Statcounter Code -->
+
+</body>
+</html>
+
+   
