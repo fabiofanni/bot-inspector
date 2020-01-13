@@ -28,10 +28,10 @@ def main():
         
         #Twitter API credentials
         credentials={}
-        credentials['consumer_key']='jQWSWqQNHhIAsaD878NAHZTOB'
-        credentials['consumer_secret']= 'ycfTPsE6rGtce9IA1yCh51UQyH87bRcVzvhdM72mbw6sVjxrjA'
-        credentials['access_token']='231187129-5tDWxdufIs1gtYCI3nnlmFcaTUnQq69f5ywlGagR'
-        credentials['access_token_secret']= 'mDwALrKEOeQDiLQYjcXVAz55mZImflpv3fLWj4YVgivNK'
+        credentials['consumer_key']=''
+        credentials['consumer_secret']= ''
+        credentials['access_token']=''
+        credentials['access_token_secret']= ''
 
         # Save the credentials object to file
         with open("twitter_credentials.json", "w") as file:
